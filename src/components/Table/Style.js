@@ -5,11 +5,9 @@ export default StyleSheet.create({
     marginBottom: 20,
     width: '100%'
   },
-  text: {
+  table: {
     width: '100%',
-    borderWidth: 1,
-    borderColor: '#000',
-    padding: 10,
-    borderRadius: 10
+    resizeMode: "contain",
+    marginTop: -120
   }
-})
+});
